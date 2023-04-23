@@ -9,7 +9,7 @@ from razan.CMD.aomari import *
 from ..Config import Config
 from ..core import check_owner
 
-ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر جمثون
+ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر كولدن
 من هنا يمكنك تصفح جميع الاوامر المتاحة **"""
 
 ROZADM = "من هنا يمكنك ايجاد جميع"
@@ -25,7 +25,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await jmub.get_me()
         if query.startswith("اوامري") and event.query.user_id == jmub.uid:
             buttons = [
-                [Button.inline("معلومات جمثون", data="AOMRDB")],
+                [Button.inline("معلومات كولدن", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="BOTCMD4"),
                     Button.inline("الكروب", data="admincmd_s"),
@@ -66,7 +66,7 @@ async def repo(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("معلومات جمثون", data="AOMRDB")],
+        [Button.inline("معلومات كولدن", data="AOMRDB")],
         [
             Button.inline("البوت", data="BOTCMD4"),
             Button.inline("الكروب", data="admincmd_s"),
@@ -168,7 +168,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز بالامر   `.وضع الرمز`
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -191,7 +191,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -202,16 +202,15 @@ async def varssett(event):
 @check_owner
 async def varssett(event):
     await event.edit(
-        """اهلا بك في قائمة اوامر سورس جمثون هذه بعض المعلومات عن جمثون:
+        """اهلا بك في قائمة اوامر سورس كولدن هذه بعض المعلومات عن كولدن:
 
-- سورس جمثون يمتلك اكثر من 100 أمر 
-- جمثون هو افضل سورس عربي يتميز بالحماية
+- سورس كولدن يمتلك اكثر من 100 أمر 
+- كولدن هو افضل سورس عربي يتميز بالحماية
 
-قناة الكلايش:  @JJOTT
-قناة الملاحظات: @RRRDF
-قناة السورس: @JMTHON
-قناة المساعدة: @JMTHON_HELP
-مجموعة المساعدة: @JMTHON_SUPPORT""",
+قناة الكلايش:  @
+قناة السورس: @G_O_L_D_EN
+قناة المساعدة: @
+مجموعة المساعدة: @GO_l2N""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -232,7 +231,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -257,7 +256,7 @@ async def varssett(event):
 .زخرفة الوقت 9
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -278,7 +277,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -319,7 +318,7 @@ async def varssett(event):
 
 * يمكنك كتابة اي كليشة مثلا: عزيزي المستخدم تم حظرك 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -339,7 +338,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على عدد التحذيرات كرقم  بالامر   `.وضع عدد التحذيرات `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -360,7 +359,7 @@ async def varssett(event):
 
 * يمكنك الحصول على  كليشة جاهزة من هذه القناة @JJOTT
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -382,7 +381,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -420,7 +419,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -440,7 +439,7 @@ async def varssett(event):
 
 * يمكنك الحصول على  كليشة جاهزة من هذه القناة @JJOTT
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -460,7 +459,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز التي تريد وضعه بالامر   `.وضع رمز الفحص `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس كولدن @G_O_L_D_EN""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
